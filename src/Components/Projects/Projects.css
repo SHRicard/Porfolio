@@ -1,0 +1,51 @@
+.container-card {
+  min-width: 200px;
+  min-height: 100px;
+  width: 200px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid #0dcaf0;
+  border-right: 1px solid #0dcaf0;
+  border-bottom: 1px solid #0dcaf0;
+}
+.container-card img {
+  width: 130px;
+}
+
+.h-modal {
+  min-width: 250px;
+  height: 75vh !important;
+}
+.modal-h p {
+  font-family: "Russo One", sans-serif !important;
+}
+.modal-h span {
+  font-family: "Russo One", sans-serif !important;
+}
+.importante {
+  color: #dc3545;
+}
+.ic {
+  font-size: 20px;
+  color: #fff;
+}
+.h-letr {
+  color: #fff;
+
+  font-family: "Russo One", sans-serif !important;
+}
+.text-tec {
+  font-family: "Russo One", sans-serif !important;
+}
+.h-git {
+  font-size: 20px;
+}
+.btn-card {
+  font-family: "Russo One", sans-serif;
+}
+.soy-Henry {
+  color: #ffc107;
+}

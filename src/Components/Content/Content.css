@@ -1,0 +1,21 @@
+.ricardo {
+  font-family: "Comforter Brush", cursive;
+  color: rgb(255, 136, 1);
+  font-size: 3.2em;
+}
+
+.web-text {
+  font-family: "Russo One", sans-serif;
+}
+.red {
+  font-family: "Russo One", sans-serif;
+}
+
+.text-fff {
+  color: #fff;
+  font-family: "Russo One", sans-serif;
+}
+.btn-about {
+  background: rgb(255, 136, 1) !important;
+  border: 1px solid rgba(255, 136, 1) !important;
+}

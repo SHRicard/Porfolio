@@ -1,0 +1,52 @@
+.navbar {
+  background: #000 !important;
+}
+
+.container-fluid img {
+  width: 80px;
+}
+
+.w-30 {
+  max-width: 300px !important;
+  background: #000 !important;
+}
+.nav-item a {
+  font-family: "Russo One", sans-serif !important;
+}
+
+.h-sub-menu img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 136, 1);
+}
+
+.sub-menu h3 {
+  font-family: "Comforter Brush", cursive;
+  color: rgb(255, 136, 1);
+  font-size: 3rem !important;
+}
+.sub-menu p {
+  font-family: "Russo One", sans-serif !important;
+  font-size: 1rem;
+  color: #fff;
+}
+.text-color {
+  color: #dc3545 !important;
+}
+.icons-sub-menu i {
+  color: #fff !important;
+  font-size: 1.8rem;
+}
+.btn-cv {
+  width: 100% !important;
+  font-family: "Russo One", sans-serif !important;
+}
+.fondo-Animado {
+  position: relative;
+  width: 100%;
+  background: radial-gradient(rgb(255, 208, 1), rgba(0, 0, 0, 0.5)),
+    url(../Img/pared.webp);
+
+  background-blend-mode: multiply;
+}

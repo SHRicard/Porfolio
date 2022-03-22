@@ -1,0 +1,17 @@
+.Projects-animation {
+  font-size: 3rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(250, 248, 245);
+}
+.Projects-animation::before {
+  content: attr(data-text);
+  position: absolute;
+  color: rgb(0, 204, 255);
+  width: 0;
+  overflow: hidden;
+  transition: 0.8s;
+  /* border-right: 8px solid rgb(0, 204, 255); */
+  -webkit-text-stroke: 1px rgb(245, 245, 245);
+}

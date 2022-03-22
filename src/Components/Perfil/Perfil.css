@@ -1,0 +1,26 @@
+.foto-perfil {
+  background: rgb(0, 0, 0);
+}
+.foto-perfil img {
+  width: 250px;
+}
+.name-text {
+  font-family: "Comforter Brush", cursive;
+  color: rgb(255, 136, 1);
+}
+.red-social .bi-linkedin {
+  font-size: 1.5rem;
+  color: rgb(0, 119, 255);
+}
+.red-social .bi-youtube {
+  font-size: 1.5rem;
+  color: rgb(255, 0, 0);
+}
+.red-social .bi-github {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.btn-download {
+  color: rgba(255, 136, 1) !important;
+  border: 1px solid rgba(255, 136, 1) !important;
+}

@@ -1,0 +1,100 @@
+.h-info p {
+  font-family: "Russo One", sans-serif;
+  color: #fff;
+}
+.h-info span {
+  font-family: "Russo One", sans-serif;
+  color: #fff;
+}
+.soy-Henry {
+  color: #ffc107;
+}
+.Platzi {
+  color: #15d47b;
+}
+.skill {
+  font-family: "Russo One", sans-serif;
+}
+.h-skill {
+  min-height: 10vh;
+}
+.js {
+  width: 100px !important;
+  height: 80px;
+}
+
+.js img {
+  max-width: 40px;
+}
+.Node {
+  width: 100px !important;
+  height: 80px;
+}
+.Node img {
+  max-width: 80px;
+}
+.Posgres {
+  width: 100px !important;
+
+  height: 80px;
+}
+.Posgres img {
+  max-width: 70px;
+}
+.ReactPng {
+  width: 100px !important;
+
+  height: 80px;
+}
+.ReactPng img {
+  max-width: 65px;
+}
+.Redux {
+  width: 100px !important;
+  height: 80px;
+}
+.Redux img {
+  max-width: 50px;
+}
+.Sequelize {
+  width: 100px !important;
+
+  height: 80px;
+}
+.Sequelize img {
+  max-width: 40px;
+}
+.bootstrap {
+  width: 80px !important;
+}
+.Html {
+  width: 100px !important;
+  height: 80px;
+}
+
+.Html img {
+  max-width: 55px;
+}
+.Css {
+  width: 100px !important;
+  height: 80px;
+}
+.Css img {
+  max-width: 40px;
+}
+.h-modal-diploma {
+  /* min-width: 250px !important; */
+  /* width: 60vw; */
+  height: 40vh;
+}
+.diploma {
+  max-width: 200px;
+  height: 160px;
+}
+.text-Certificado {
+  font-family: "Russo One", sans-serif;
+  color: rgb(2, 2, 2);
+}
+.bnt-dow {
+  font-family: "Russo One", sans-serif;
+}

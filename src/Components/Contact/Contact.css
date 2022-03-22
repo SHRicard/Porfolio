@@ -1,0 +1,31 @@
+/* Tengamos una charla, Me encantaría saber de usted. ¿Quieres
+ponerte en contacto? */
+/* Enviame un Correo con tus Preguntas !! */
+.section {
+  position: relative;
+  width: 100%;
+  height: 552px;
+
+  background: radial-gradient(rgb(255, 208, 1), rgba(0, 0, 0, 0.5)),
+    url(../Img/pared.webp);
+  background-blend-mode: multiply;
+}
+.section::before {
+  content: "";
+  position: absolute;
+  /* width: 500px;
+  height: 500px; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(rgba(255, 0, 0, 0.75), transparent, transparent);
+  /* border-radius: 50%; */
+}
+.phone {
+  color: #fff;
+  font-size: 20px;
+}
+.mail {
+  color: rgb(255, 136, 1);
+  font-size: 20px;
+}

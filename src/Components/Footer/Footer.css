@@ -1,0 +1,24 @@
+.footer {
+  background: rgb(255, 136, 1);
+}
+.h-copy {
+  font-family: "Russo One", sans-serif;
+  font-size: 1rem;
+}
+.h-link a {
+  font-family: "Russo One", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+}
+.bi-linkedin {
+  font-size: 1.5rem;
+  color: rgb(0, 119, 255);
+}
+.bi-youtube {
+  font-size: 1.5rem;
+  color: rgb(255, 0, 0);
+}
+.bi-github {
+  font-size: 1.5rem;
+  color: #fff;
+}

@@ -1,0 +1,86 @@
+.home-animation {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(250, 248, 245);
+  overflow: hidden;
+  /* animation: textTyping 5s steps(4) infinite; */
+  animation: animationColor 5s linear infinite;
+}
+@keyframes textTyping {
+  0%,
+  90%,
+  100% {
+    width: 0px;
+  }
+  30%,
+  60% {
+    width: 150px;
+  }
+}
+@keyframes animationColor {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  60.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #0e3742;
+    text-shadow: none !important;
+  }
+
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: rgba(255, 255, 255, 0.904);
+    text-shadow: 0 0 1px #03bcf4, 0 0 2px #03bcf4, 0 0 4px #03bcf4,
+      0 0 8px #03bcf4, 0 0 10px #03bcf4;
+  }
+}
+.code {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(250, 248, 245, 0.89);
+  overflow: hidden;
+  /* animation: textTyping 5s steps(4) infinite; */
+  animation: animationColorColor 5s linear infinite;
+}
+
+@keyframes animationColorColor {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  60.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #06fa2e;
+    text-shadow: none !important;
+  }
+
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: rgba(8, 8, 8, 0.904);
+    text-shadow: 0 0 1px #eb6106, 0 0 2px #eb6106, 0 0 4px #eb6106,
+      0 0 8px #eb6106, 0 0 10px #eb6106;
+  }
+}
