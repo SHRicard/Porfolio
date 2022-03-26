@@ -110,7 +110,7 @@ const About = () => {
         <button
           type="button"
           onClick={() => setIsOpenCertificado(true)}
-          className="btn btn-outline-warning col-6 text-fff mt-4 "
+          className="btn btn-outline-warning   btn-download col-6 text-fff mt-4 "
         >
           Ver mi Certificado
         </button>

@@ -2,7 +2,8 @@ import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import Logo from "../Img/logo.png";
 import Perfil from "../Perfil/Perfil.js";
-import FotoPerfil from "../Img/Perfil.jpeg";
+import FotoPerfil from "../Img/Ricardo.png";
+import RicardoRedondo from "../Img/RicardoRedondo.png";
 
 import "./Menu.css";
 import Footer from "../Footer/Footer";
@@ -30,14 +31,18 @@ const Menu = () => {
             aria-labelledby="navbarOffcanvasLgLabel "
           >
             {/* Perfeil */}
-            <div className="d-lg-none  h-sub-menu pt-5 text-center">
-              <img src={FotoPerfil} alt="perfil" className="img-fluid" />
+            <div className="d-lg-none  h-sub-menu  text-center">
+              <img
+                src={RicardoRedondo}
+                alt="perfil"
+                className="img-fluid pt-5 "
+              />
               <div className="sub-menu">
-                <h3 className="d-flex justify-content-center fs-2  pt-5 mb-1">
+                <h3 className="d-flex justify-content-center fs-2  mb-1">
                   Ricardo Ramirez
                 </h3>
 
-                <p className="fs-6  pb-4 text-center text-muted">
+                <p className="fs-6  pb-2 text-center text-muted">
                   Web Designer
                 </p>
               </div>
@@ -111,8 +116,12 @@ const Menu = () => {
       </nav>
       <div className="row m-0">
         <div className="col-4 p-0 d-none d-lg-block text-center  foto-perfil ">
-          <img src={FotoPerfil} alt="perfil" className="img-fluid " />
-          <p className="fs-1 name-text  m-0">Ricardo Ramirez</p>
+          <img
+            src={FotoPerfil}
+            alt="perfil"
+            className="img-fluid img-Ricardo "
+          />
+          <p className="fs-1 name-text pt-4 m-0">Ricardo Ramirez</p>
           <p className="fs-4 web-text text-muted m-0 lh-sm">web developer</p>
           <p className="red fs-6 pt-4 text-muted m-0 lh-sm ">Follow me</p>
           <div className="col-12 red-social pb-5">

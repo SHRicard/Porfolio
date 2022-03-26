@@ -1,6 +1,6 @@
 .ricardo {
   font-family: "Comforter Brush", cursive;
-  color: rgb(255, 136, 1);
+  color: rgb(84, 185, 72);
   font-size: 3.2em;
 }
 
@@ -16,6 +16,6 @@
   font-family: "Russo One", sans-serif;
 }
 .btn-about {
-  background: rgb(255, 136, 1) !important;
-  border: 1px solid rgba(255, 136, 1) !important;
+  background: rgb(84, 185, 72) !important;
+  border: 1px solid rgb(84, 185, 72) !important;
 }

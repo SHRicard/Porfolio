@@ -6,7 +6,7 @@ ponerte en contacto? */
   width: 100%;
   height: 552px;
 
-  background: radial-gradient(rgb(255, 208, 1), rgba(0, 0, 0, 0.5)),
+  background: radial-gradient(rgb(84, 185, 72), rgba(0, 0, 0, 0.5)),
     url(../Img/pared.webp);
   background-blend-mode: multiply;
 }
@@ -22,10 +22,10 @@ ponerte en contacto? */
   /* border-radius: 50%; */
 }
 .phone {
-  color: #fff;
+  color: rgb(84, 185, 72);
   font-size: 20px;
 }
 .mail {
-  color: rgb(255, 136, 1);
+  color: rgb(84, 185, 72);
   font-size: 20px;
 }

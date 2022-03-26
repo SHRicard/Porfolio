@@ -12,18 +12,19 @@
 }
 .nav-item a {
   font-family: "Russo One", sans-serif !important;
+  color: rgb(84, 185, 72) !important;
 }
 
 .h-sub-menu img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  border: 2px solid rgb(255, 136, 1);
+  width: 300px !important;
+  height: 300px !important;
 }
-
+.img-Ricardo {
+  border: 3px solid rgb(84, 185, 72);
+}
 .sub-menu h3 {
   font-family: "Comforter Brush", cursive;
-  color: rgb(255, 136, 1);
+  color: rgb(84, 185, 72);
   font-size: 3rem !important;
 }
 .sub-menu p {
@@ -45,8 +46,7 @@
 .fondo-Animado {
   position: relative;
   width: 100%;
-  background: radial-gradient(rgb(255, 208, 1), rgba(0, 0, 0, 0.5)),
-    url(../Img/pared.webp);
+  background: url(../Img/FondoBat.jpg);
 
   background-blend-mode: multiply;
 }
