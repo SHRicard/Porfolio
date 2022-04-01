@@ -93,17 +93,19 @@ const About = () => {
           <AboutAnimation />
         </div>
       </div>
-      <div className="col-12    text-center ">
+      <div className="col-12    text-center p-4 ">
         <span className="text-fff text-center">
           Soy una persona que encontró su verdadera vocación,
-          <br /> comencé realizando el bootcamp de
           <br />
-          <span className="soy-Henry fs-5 "> Soy Henry</span>
-          <br /> y luego para poder expandir mas mis conocimiento adquirir una
-          membresía en la plataforma
+          comencé realizando el bootcamp de
+          <span className="soy-Henry fs-6 "> Soy Henry</span>
           <br />
-          <span className="Platzi fs-5"> Platzi</span>
-          <br />, Me emociona aprender y estoy en constante capacitación.
+          y luego para poder expandir
+          <br />
+          mas mis conocimiento adquirir una membresía en la plataforma
+          <span className="Platzi fs-6"> Platzi</span>
+          <br />
+          Me emociona aprender y estoy en constante capacitación.
         </span>
 
         <p className="text-fff ">Quiere saber mas de mis Estudios?</p>

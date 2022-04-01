@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import Logo from "../Img/logo.png";
 import Perfil from "../Perfil/Perfil.js";
 import FotoPerfil from "../Img/Ricardo.png";
-import RicardoRedondo from "../Img/RicardoRedondo.png";
+import RicardoRedondo from "../Img/RicardoRamirez.gif";
 
 import "./Menu.css";
 import Footer from "../Footer/Footer";
@@ -32,11 +32,7 @@ const Menu = () => {
           >
             {/* Perfeil */}
             <div className="d-lg-none  h-sub-menu  text-center">
-              <img
-                src={RicardoRedondo}
-                alt="perfil"
-                className="img-fluid pt-5 "
-              />
+              <img src={RicardoRedondo} alt="perfil" className="img-fluid  " />
               <div className="sub-menu">
                 <h3 className="d-flex justify-content-center fs-2  mb-1">
                   Ricardo Ramirez

@@ -7,9 +7,15 @@ const Footer = () => {
       <div className="row">
         <div className="col-12 ">
           <div className="d-none d-md-block d-lg-none text-center">
-            <i className="icons bi bi-linkedin col-2 mx-2"></i>
-            <i className="icons bi bi-github col-2 mx-2"></i>
-            <i className="icons bi bi-youtube col-2 mx-2"></i>
+            <a href="https://www.linkedin.com/in/ricardo-ram%C3%ADrez-24478b219/">
+              <i className="icons bi bi-linkedin mx-2"></i>
+            </a>
+            <a href="https://github.com/SHRicard">
+              <i className="icons bi bi-github mx-2"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCdV2tPWPrTtcHuwZ5dWtwJQ">
+              <i className="icons bi bi-youtube mx-2"></i>
+            </a>
           </div>
         </div>
 
