@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import Logo from "../Img/logo.png";
 import Perfil from "../Perfil/Perfil.js";
 import FotoPerfil from "../Img/Ricardo.png";
-import RicardoRedondo from "../Img/RicardoRamirez.gif";
+import RicardoRedondo from "../Img/RicardoGif.gif";
 
 import "./Menu.css";
 import Footer from "../Footer/Footer";
@@ -38,9 +38,7 @@ const Menu = () => {
                   Ricardo Ramirez
                 </h3>
 
-                <p className="fs-6  pb-2 text-center text-muted">
-                  Web Designer
-                </p>
+                <p className="fs-6  m-0 text-center text-muted">Web Designer</p>
               </div>
             </div>
             {/* End Perfil */}
@@ -78,7 +76,7 @@ const Menu = () => {
               </div>
             </div>
             {/* sub-menu iconos  */}
-            <div className="row  pt-3 mt-3 d-lg-none text-center">
+            <div className="row  d-lg-none text-center">
               <div>
                 <small className="text-muted fs-6 text-fff ">Sigueme en</small>
               </div>
@@ -96,7 +94,7 @@ const Menu = () => {
             </div>
             {/* sub-menu iconos end */}
             <div className="row p-4 d-lg-none">
-              <div className="col  mt-5">
+              <div className="col  ">
                 <button
                   type="button"
                   className="col-12 btn btn-outline-warning btn-sm btn-download"

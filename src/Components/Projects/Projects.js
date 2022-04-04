@@ -229,7 +229,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="row ">
+      <div className="row mx-1">
         {/* Card start Country*/}
         <div className="col-sm-12 col-md-6  col-lg-6  d-flex justify-content-center pt-4">
           <div className="container-card ">
@@ -276,14 +276,22 @@ const Projects = () => {
         {/* Card end Pokemon */}
       </div>
 
-      <p className="text-fff text-center pb-3 pt-5 ">
-        Esto son Algunos de mis Proyectos <br /> terminados te invito a ingresar
-        a <br />
-        los detalle de cada App . <br />
+      <p className="text-fff text-center pb-3 pt-5 p-5">
+        Esto son Algunos de mis Proyectos
+        <br />
+        terminados te invito a ingresar a
+        <br />
+        los detalle de cada App.
+        <br />
         Son Proyecto realizados para el bootcamp de
-        <br /> <small className="soy-Henry fs-5"> " SoyHenry "</small>
-        <br /> Estan realizado con varias tecnologias, <br />
-        los proyectos cuentan con Base de Dato, Back-End y Front-End
+        <br />
+        <span className="soy-Henry fs-6 ">Soy Henry</span>
+        <br />
+        Estan realizado con varias tecnologias,
+        <br />
+        los proyectos cuentan con
+        <br />
+        Base de Dato, Back-End y Front-End
       </p>
     </div>
   );
