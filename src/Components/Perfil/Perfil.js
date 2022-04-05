@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FotoPerfil from "../Img/fotoFondo.jpg";
 
+import FotoPerfil from "../Img/fotoFondo.jpg";
+// import CV from "../../../public/RicardoRamirez.pdf";
 import "./Perfil.css";
+
 const Perfil = () => {
   return (
     <>
@@ -21,7 +23,7 @@ const Perfil = () => {
             type="button"
             className="col-6 btn btn-outline-warning btn-sm btn-download m-4"
           >
-            <i class="bi bi-cloud-arrow-down-fill ">&nbsp;Download&nbsp;C.V</i>
+            <i className="bi bi-cloud-arrow-down-fill ">&nbsp;Ver C.V&nbsp;</i>
           </button>
         </div>
       </div>

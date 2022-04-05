@@ -48,3 +48,11 @@
 
   background-blend-mode: multiply;
 }
+.cv{
+width:240px;
+  height:330px;
+}
+.h-cv-color{
+
+  background: rgb(1, 1, 1) !important;
+}

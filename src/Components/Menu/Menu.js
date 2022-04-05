@@ -4,12 +4,52 @@ import Logo from "../Img/logo.png";
 import Perfil from "../Perfil/Perfil.js";
 import FotoPerfil from "../Img/Ricardo.png";
 import RicardoRedondo from "../Img/RicardoGif.gif";
+import Modal from "react-modal";
+import Footer from "../Footer/Footer";
 
 import "./Menu.css";
-import Footer from "../Footer/Footer";
+
+const modaCv = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    transform: "translate(-50%, -50%)",
+  },
+};
+
 const Menu = () => {
+  const [modalIsOpenCv, setIsOpenCV] = React.useState(false);
+
   return (
     <div className="container">
+      <Modal
+        isOpen={modalIsOpenCv}
+        onRequestClose={() => setIsOpenCV(false)}
+        style={modaCv}
+        contentLabel="Example Modal"
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col h-cv-color fs-1 text-center text-fff">
+              Mi Cv
+            </div>
+          </div>
+        </div>
+        <div className="container h-cv-color">
+          <div className="row row-cols-auto d-flex justify-content-center">
+            <div className="col">
+              <iframe
+                className="cv"
+                src="https://drive.google.com/file/d/1SCrhj2N-0CiPPkDL8LzzdDD76zQLR2fj/preview"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </Modal>
+
       <nav className="navbar sticky-top navbar-expand-lg   navbar-dark pt-4 mt-2">
         <div className="container-fluid ">
           <img src={Logo} alt="Logo" className="p-1 " />
@@ -97,11 +137,10 @@ const Menu = () => {
               <div className="col  ">
                 <button
                   type="button"
+                  onClick={() => setIsOpenCV(true)}
                   className="col-12 btn btn-outline-warning btn-sm btn-download"
                 >
-                  <i class="bi bi-cloud-arrow-down-fill ">
-                    &nbsp;Download&nbsp;C.V
-                  </i>
+                  <i class="bi bi-cloud-arrow-down-fill ">&nbsp;Ver&nbsp;C.V</i>
                 </button>
               </div>
             </div>
@@ -131,9 +170,10 @@ const Menu = () => {
           </div>
           <button
             type="button"
+            onClick={() => setIsOpenCV(true)}
             className="col-6 btn btn-outline-warning btn-sm btn-download m-4"
           >
-            <i class="bi bi-cloud-arrow-down-fill ">&nbsp;Download&nbsp;C.V</i>
+            <i class="bi bi-cloud-arrow-down-fill ">&nbsp;Ver &nbsp;C.V</i>
           </button>
         </div>
         <div className="col p-0">
