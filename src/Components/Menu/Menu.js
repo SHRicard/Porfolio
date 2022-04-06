@@ -11,7 +11,7 @@ import "./Menu.css";
 
 const modaCv = {
   content: {
-    top: "50%",
+    top: "59%",
     left: "50%",
     right: "auto",
     bottom: "auto",

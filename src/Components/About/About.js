@@ -16,7 +16,7 @@ import "./About.css";
 
 const customStyles = {
   content: {
-    top: "50%",
+    top: "59%",
     left: "50%",
     right: "auto",
     bottom: "auto",
@@ -37,7 +37,7 @@ const About = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col fs-1 text-center text-Certificado p-3">
+            <div className="col fs-1  text-center text-Certificado p-3">
               Mi Certificado
             </div>
           </div>
