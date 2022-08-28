@@ -42,9 +42,10 @@ const Menu = () => {
             <div className="col">
               <iframe
                 className="cv"
-                src="https://drive.google.com/file/d/1SCrhj2N-0CiPPkDL8LzzdDD76zQLR2fj/preview"
+                src="https://drive.google.com/file/d/1RaLVnGO0p0PkYj2sAJYOYqq5HBc5voRu/view?usp=sharing"
                 allow="autoplay"
-              ></iframe>
+                title="cv"
+              />
             </div>
           </div>
         </div>
