@@ -41,11 +41,11 @@ const Menu = () => {
           <div className="row row-cols-auto d-flex justify-content-center">
             <div className="col">
               <iframe
+                src="https://drive.google.com/file/d/1RaLVnGO0p0PkYj2sAJYOYqq5HBc5voRu/preview"
                 className="cv"
-                src="https://drive.google.com/file/d/1RaLVnGO0p0PkYj2sAJYOYqq5HBc5voRu/view?usp=sharing"
                 allow="autoplay"
                 title="cv"
-              />
+              ></iframe>
             </div>
           </div>
         </div>
